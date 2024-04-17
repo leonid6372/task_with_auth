@@ -1,0 +1,5 @@
+mongodb_info: "127.0.0.1:27017" # Данные для работы с хранилещем данных
+http_server: "127.0.0.1:8000" # Адрес запуска http-server
+auth_info:
+  secret_path: "C:/Users/Leonid/Desktop/auth/internal/lib/auth/secret.txt" # Расположение секрета для генерации токенов
+  token_ttl: "15s" # Время жизни access token
